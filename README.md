@@ -122,3 +122,5 @@
 </p>
 
 </div>
+
+<!-- Images refresh daily via .github/workflows/refresh.yml -->
