@@ -1,0 +1,14 @@
+
+# never commit raw sources or photos
+portfolio-content.json
+*.jpg
+*.jpeg
+*.heic
+photo*
+data/
+.env
+.env.*
+node_modules/
+source-photo.*
+*.png
+!# photos and local rasters stay out; generated SVGs are committed

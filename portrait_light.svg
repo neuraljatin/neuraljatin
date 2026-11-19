@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="284" viewBox="0 0 280 284" role="img" aria-label="ASCII portrait">
+  <defs>
+    <style><![CDATA[
+text, tspan { font-family: Consolas, ui-monospace, 'Liberation Mono', 'Courier New', monospace; }
+
+@keyframes typeWipe {
+  from { width: 0; }
+  to { width: 248px; }
+}
+@keyframes blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.cursor { animation: blink 1.2s step-end 2.10s infinite; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-delay: 0s !important;
+  }
+}
+
+    ]]></style>
+  </defs>
+  
+  <defs>
+    <clipPath id="pclip_light_0"><rect x="16" y="21" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.00s forwards"/></clipPath>
+    <clipPath id="pclip_light_1"><rect x="16" y="37" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.12s forwards"/></clipPath>
+    <clipPath id="pclip_light_2"><rect x="16" y="53" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.24s forwards"/></clipPath>
+    <clipPath id="pclip_light_3"><rect x="16" y="69" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.36s forwards"/></clipPath>
+    <clipPath id="pclip_light_4"><rect x="16" y="85" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.48s forwards"/></clipPath>
+    <clipPath id="pclip_light_5"><rect x="16" y="101" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.60s forwards"/></clipPath>
+    <clipPath id="pclip_light_6"><rect x="16" y="117" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.72s forwards"/></clipPath>
+    <clipPath id="pclip_light_7"><rect x="16" y="133" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.84s forwards"/></clipPath>
+    <clipPath id="pclip_light_8"><rect x="16" y="149" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 0.96s forwards"/></clipPath>
+    <clipPath id="pclip_light_9"><rect x="16" y="165" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.08s forwards"/></clipPath>
+    <clipPath id="pclip_light_10"><rect x="16" y="181" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.20s forwards"/></clipPath>
+    <clipPath id="pclip_light_11"><rect x="16" y="197" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.32s forwards"/></clipPath>
+    <clipPath id="pclip_light_12"><rect x="16" y="213" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.44s forwards"/></clipPath>
+    <clipPath id="pclip_light_13"><rect x="16" y="229" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.56s forwards"/></clipPath>
+    <clipPath id="pclip_light_14"><rect x="16" y="245" width="248" height="16" style="animation:typeWipe 0.28s steps(16, end) 1.68s forwards"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="279" height="283" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+  <text x="16" y="34" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_0)">                              </text>
+    <text x="16" y="50" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_1)">                              </text>
+    <text x="16" y="66" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_2)">    @@@@+     +@@@    +@@@    </text>
+    <text x="16" y="82" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_3)">    @@@@@+    +@@@    +@@@+   </text>
+    <text x="16" y="98" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_4)">    @@@@@@+   +@@@    +@@@    </text>
+    <text x="16" y="114" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_5)">    @@@ +@@+  +@@@    +@@@    </text>
+    <text x="16" y="130" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_6)">    @@@  +@@+ +@@@    +@@@    </text>
+    <text x="16" y="146" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_7)">    @@@   @@@++@@@    +@@@    </text>
+    <text x="16" y="162" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_8)">    @@@    +@@@@@@    +@@@    </text>
+    <text x="16" y="178" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_9)">    @@@     @@@@@@    +@@@+   </text>
+    <text x="16" y="194" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_10)">    @@@      @@@@@    +@@@    </text>
+    <text x="16" y="210" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_11)">                     +@@@@    </text>
+    <text x="16" y="226" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_12)">                   @@@@@+     </text>
+    <text x="16" y="242" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_13)">                              </text>
+    <text x="16" y="258" font-size="13" fill="#0000ff" xml:space="preserve" clip-path="url(#pclip_light_14)">                              </text>
+  <rect class="cursor" x="16" y="264" width="10" height="3" fill="#0000ff"/>
+
+</svg>

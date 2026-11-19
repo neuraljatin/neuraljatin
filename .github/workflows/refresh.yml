@@ -1,0 +1,44 @@
+name: Refresh profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Fetch GitHub stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/fetch-contributions.js
+      - name: Render SVGs
+        run: node scripts/generate-all.js --live
+      - name: Commit generated SVGs only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Only the Action-managed art. Never stage skills-globe_*.svg
+          # (DESIGNER's static file) or any other SVG.
+          git add -- \
+            tagline_dark.svg tagline_light.svg \
+            contrib-heatmap_dark.svg contrib-heatmap_light.svg \
+            kpi_dark.svg kpi_light.svg \
+            skills_dark.svg skills_light.svg \
+            portrait_dark.svg portrait_light.svg \
+            info-card_dark.svg info-card_light.svg
+          if git diff --staged --quiet; then
+            echo "No SVG changes."
+          else
+            git commit -m "chore: refresh profile art"
+            git push
+          fi

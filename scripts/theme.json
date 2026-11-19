@@ -1,0 +1,333 @@
+{
+  "active": "yellow_blue",
+  "comment": "Switch palettes with 'active' or the THEME env var. Default is yellow_blue (DESIGNER final). Each theme has dark and light blocks. SVGs are emitted as <name>_dark.svg and <name>_light.svg.",
+  "futurePalettes": {
+    "indigoViolet": {
+      "note": "From the neuraljatin avatar. Not applied. Jatin may choose this later instead of teal.",
+      "swatches": [
+        "#20287b",
+        "#2f2d93",
+        "#4735b5",
+        "#5339c8",
+        "#618fdd"
+      ]
+    }
+  },
+  "themes": {
+    "teal": {
+      "label": "Teal",
+      "dark": {
+        "page": "#070b14",
+        "panel": "#081416",
+        "border": "#164446",
+        "accent": "#2ff5e0",
+        "accentDim": "#7ee0ff",
+        "text": "#e6edf3",
+        "body": "#c9d1d9",
+        "muted": "#8b949e",
+        "faint": "#5c7a7a",
+        "bannerFrom": "#070b14",
+        "bannerTo": "#0c2a2c",
+        "cursor": "#2ff5e0",
+        "heatmap": {
+          "levels": [
+            "#0a1a1c",
+            "#0e2427",
+            "#123033"
+          ],
+          "letters": [
+            "#14a89e",
+            "#2ff5e0",
+            "#48d8cb",
+            "#5bebdd",
+            "#6ffff0"
+          ]
+        }
+      },
+      "light": {
+        "page": "#f6fbfb",
+        "panel": "#ffffff",
+        "border": "#cfe7e6",
+        "accent": "#00b3a4",
+        "accentDim": "#00796f",
+        "text": "#0b2a2c",
+        "body": "#0b2a2c",
+        "muted": "#4a6a6a",
+        "faint": "#6a8888",
+        "bannerFrom": "#f6fbfb",
+        "bannerTo": "#e3f1f0",
+        "cursor": "#00796f",
+        "heatmap": {
+          "levels": [
+            "#e3f1f0",
+            "#d2e9e7",
+            "#c0e0dd"
+          ],
+          "letters": [
+            "#00796f",
+            "#00877c",
+            "#009689",
+            "#00a497",
+            "#00b3a4"
+          ]
+        }
+      }
+    },
+    "neon": {
+      "label": "Neon (cyan to violet)",
+      "dark": {
+        "page": "#070b14",
+        "panel": "#0b1020",
+        "border": "#1c3166",
+        "accent": "#00e5ff",
+        "accentDim": "#7a7cff",
+        "text": "#e6edf3",
+        "body": "#c9d1d9",
+        "muted": "#8b949e",
+        "faint": "#5c6a8a",
+        "bannerFrom": "#070b14",
+        "bannerTo": "#141a3a",
+        "cursor": "#00e5ff",
+        "heatmap": {
+          "levels": [
+            "#0f1830",
+            "#15244a",
+            "#1c3166"
+          ],
+          "letters": [
+            "#00e5ff",
+            "#3fb4ff",
+            "#7a7cff",
+            "#b15cff",
+            "#ff4fd8"
+          ]
+        }
+      },
+      "light": {
+        "page": "#f6f8ff",
+        "panel": "#ffffff",
+        "border": "#cfd6ee",
+        "accent": "#005f9e",
+        "accentDim": "#4b3aa8",
+        "text": "#0b1020",
+        "body": "#0b1020",
+        "muted": "#4a5270",
+        "faint": "#6a7290",
+        "bannerFrom": "#f6f8ff",
+        "bannerTo": "#e8ecfb",
+        "cursor": "#005f9e",
+        "heatmap": {
+          "levels": [
+            "#eef1fb",
+            "#dde3f5",
+            "#c9d3ee"
+          ],
+          "letters": [
+            "#007a8a",
+            "#1a6fbf",
+            "#4b3aa8",
+            "#7a2aa0",
+            "#b01f80"
+          ]
+        }
+      }
+    },
+    "aurora": {
+      "label": "Aurora (teal to lime)",
+      "dark": {
+        "page": "#070b14",
+        "panel": "#0c1c22",
+        "border": "#163a3c",
+        "accent": "#00f5c4",
+        "accentDim": "#6cf56a",
+        "text": "#e6edf3",
+        "body": "#c9d1d9",
+        "muted": "#8b949e",
+        "faint": "#5c7a6a",
+        "bannerFrom": "#070b14",
+        "bannerTo": "#0c2a22",
+        "cursor": "#00f5c4",
+        "heatmap": {
+          "levels": [
+            "#0c1c22",
+            "#10282e",
+            "#163a3c"
+          ],
+          "letters": [
+            "#00f5c4",
+            "#2ff59a",
+            "#6cf56a",
+            "#b6f53c",
+            "#e8ff3a"
+          ]
+        }
+      },
+      "light": {
+        "page": "#f6fbf6",
+        "panel": "#ffffff",
+        "border": "#cfe7d4",
+        "accent": "#007a5e",
+        "accentDim": "#3a8a20",
+        "text": "#0b2a1c",
+        "body": "#0b2a1c",
+        "muted": "#4a6a54",
+        "faint": "#6a8a74",
+        "bannerFrom": "#f6fbf6",
+        "bannerTo": "#e3f1e6",
+        "cursor": "#007a5e",
+        "heatmap": {
+          "levels": [
+            "#e8f4ea",
+            "#d4ead8",
+            "#c0e0c6"
+          ],
+          "letters": [
+            "#007a5e",
+            "#1a9a4a",
+            "#3a8a20",
+            "#6a9a10",
+            "#8aaa00"
+          ]
+        }
+      }
+    },
+    "sunset": {
+      "label": "Sunset (amber to pink)",
+      "dark": {
+        "page": "#140e18",
+        "panel": "#1a1424",
+        "border": "#2f2145",
+        "accent": "#ff7a4f",
+        "accentDim": "#ffd23f",
+        "text": "#e6edf3",
+        "body": "#c9d1d9",
+        "muted": "#8b949e",
+        "faint": "#7a6a7a",
+        "bannerFrom": "#140e18",
+        "bannerTo": "#2a1830",
+        "cursor": "#ffd23f",
+        "heatmap": {
+          "levels": [
+            "#1a1424",
+            "#241a33",
+            "#2f2145"
+          ],
+          "letters": [
+            "#ffd23f",
+            "#ffa53f",
+            "#ff7a4f",
+            "#ff4f7a",
+            "#ff3fb4"
+          ]
+        }
+      },
+      "light": {
+        "page": "#fff8f6",
+        "panel": "#ffffff",
+        "border": "#ead7d0",
+        "accent": "#c44a20",
+        "accentDim": "#a06010",
+        "text": "#2a1414",
+        "body": "#2a1414",
+        "muted": "#6a4a4a",
+        "faint": "#8a6a6a",
+        "bannerFrom": "#fff8f6",
+        "bannerTo": "#f8ece6",
+        "cursor": "#c44a20",
+        "heatmap": {
+          "levels": [
+            "#f8eeea",
+            "#f0e0d8",
+            "#e8d2c8"
+          ],
+          "letters": [
+            "#b08010",
+            "#c06018",
+            "#c44a20",
+            "#b02050",
+            "#a01870"
+          ]
+        }
+      }
+    },
+    "yellow_blue": {
+      "label": "Yellow / Blue",
+      "rules": "Dark: yellow for text and letters, blue only for fills. Light: blue for text, yellow only as a fill behind dark or blue text.",
+      "source": "DESIGNER theme_yellow_blue.json \u2014 exact codes",
+      "dark": {
+        "page": "#0d1117",
+        "bg": "#0d1117",
+        "panel": "#03031c",
+        "border": "#1a1aff",
+        "text": "#e6edf3",
+        "body": "#e6edf3",
+        "muted": "#8b949e",
+        "faint": "#8b949e",
+        "accent": "#ffff00",
+        "accentDim": "#d9d900",
+        "fill": "#0000ff",
+        "fillText": "#ffff00",
+        "highlightFill": "#ffff00",
+        "cursor": "#ffff00",
+        "bannerFrom": "#0d1117",
+        "bannerTo": "#03031c",
+        "heatmap": {
+          "levels": [
+            "#07073a",
+            "#0a0a5a",
+            "#0f0f80"
+          ],
+          "letters": [
+            "#d9d900",
+            "#ecec00",
+            "#ffff00",
+            "#ffff53",
+            "#ffffa6"
+          ],
+          "letterStops": [
+            "#d9d900",
+            "#ffff00",
+            "#ffffa6"
+          ]
+        }
+      },
+      "light": {
+        "page": "#ffffff",
+        "bg": "#ffffff",
+        "panel": "#f6f6ff",
+        "border": "#c4c4ff",
+        "text": "#1f2328",
+        "body": "#1f2328",
+        "muted": "#57606a",
+        "faint": "#57606a",
+        "accent": "#0000ff",
+        "accentDim": "#0000cc",
+        "fill": "#0000ff",
+        "fillText": "#ffff00",
+        "highlightFill": "#ffff00",
+        "cursor": "#0000ff",
+        "bannerFrom": "#ffffff",
+        "bannerTo": "#f6f6ff",
+        "heatmap": {
+          "levels": [
+            "#e8e8ff",
+            "#c8c8ff",
+            "#9e9eff"
+          ],
+          "letters": [
+            "#0000cc",
+            "#0000e6",
+            "#0000ff",
+            "#1d1dff",
+            "#3a3aff"
+          ],
+          "letterStops": [
+            "#0000cc",
+            "#0000ff",
+            "#3a3aff"
+          ]
+        }
+      }
+    }
+  }
+}

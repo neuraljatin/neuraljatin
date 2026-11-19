@@ -1,0 +1,8 @@
+{
+  "_comment": "Add up to 3 optional manual achievements after Jatin confirms them. Leave title empty to hide a slot. Never invent entries. Live GitHub milestones are computed by the daily Action, not listed here.",
+  "manual": [
+    { "title": "", "detail": "" },
+    { "title": "", "detail": "" },
+    { "title": "", "detail": "" }
+  ]
+}

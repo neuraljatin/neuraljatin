@@ -1,0 +1,11 @@
+{
+  "name": "neuraljatin-profile",
+  "private": true,
+  "description": "Self-generated animated SVGs for the neuraljatin GitHub profile README. No third-party stats services.",
+  "scripts": {
+    "generate": "node scripts/generate-all.js --sample",
+    "generate:live": "node scripts/fetch-contributions.js && node scripts/generate-all.js --live",
+    "portrait": "node scripts/render-portrait.js",
+    "validate": "node scripts/validate.js"
+  }
+}

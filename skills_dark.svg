@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="148" viewBox="0 0 860 148" role="img" aria-label="Skills">
+  <defs>
+    <style><![CDATA[
+text, tspan { font-family: Consolas, ui-monospace, 'Liberation Mono', 'Courier New', monospace; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-delay: 0s !important;
+  }
+}
+
+    ]]></style>
+  </defs>
+  <rect width="860" height="148" fill="#0d1117"/>
+    <g style="animation:fadeIn 0.4s ease 0s forwards">
+      <rect x="8" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="18" y="30" font-size="11" font-weight="700" fill="#ffff00">ANALYSIS</text>
+      <text x="18" y="52" font-size="11" fill="#e6edf3">BRD / FRD</text>
+        <text x="18" y="72" font-size="11" fill="#e6edf3">UAT</text>
+        <text x="18" y="92" font-size="11" fill="#e6edf3">Jira</text>
+        <text x="18" y="112" font-size="11" fill="#e6edf3">Agile / Scrum</text>
+    </g>
+
+    <g style="animation:fadeIn 0.4s ease 0.08s forwards">
+      <rect x="150" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="160" y="30" font-size="11" font-weight="700" fill="#ffff00">DATA</text>
+      <text x="160" y="52" font-size="11" fill="#e6edf3">SQL</text>
+        <text x="160" y="72" font-size="11" fill="#e6edf3">Python</text>
+        <text x="160" y="92" font-size="11" fill="#e6edf3">Pandas</text>
+        <text x="160" y="112" font-size="11" fill="#e6edf3">EDA</text>
+    </g>
+
+    <g style="animation:fadeIn 0.4s ease 0.16s forwards">
+      <rect x="292" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="302" y="30" font-size="11" font-weight="700" fill="#ffff00">BI</text>
+      <text x="302" y="52" font-size="11" fill="#e6edf3">Power BI</text>
+        <text x="302" y="72" font-size="11" fill="#e6edf3">Tableau</text>
+        <text x="302" y="92" font-size="11" fill="#e6edf3">Excel</text>
+        <text x="302" y="112" font-size="11" fill="#e6edf3">KPI reporting</text>
+    </g>
+
+    <g style="animation:fadeIn 0.4s ease 0.24s forwards">
+      <rect x="434" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="444" y="30" font-size="11" font-weight="700" fill="#ffff00">LANGUAGES</text>
+      <text x="444" y="52" font-size="11" fill="#e6edf3">Python</text>
+        <text x="444" y="72" font-size="11" fill="#e6edf3">SQL</text>
+        <text x="444" y="92" font-size="11" fill="#e6edf3">TypeScript</text>
+        <text x="444" y="112" font-size="11" fill="#e6edf3">JavaScript</text>
+    </g>
+
+    <g style="animation:fadeIn 0.4s ease 0.32s forwards">
+      <rect x="576" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="586" y="30" font-size="11" font-weight="700" fill="#ffff00">CLOUD</text>
+      <text x="586" y="52" font-size="11" fill="#e6edf3">AWS</text>
+        <text x="586" y="72" font-size="11" fill="#e6edf3">Vercel</text>
+        <text x="586" y="92" font-size="11" fill="#e6edf3">Next.js</text>
+        <text x="586" y="112" font-size="11" fill="#e6edf3">Git</text>
+    </g>
+
+    <g style="animation:fadeIn 0.4s ease 0.4s forwards">
+      <rect x="718" y="8" width="134" height="132" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="728" y="30" font-size="11" font-weight="700" fill="#ffff00">MODELLING</text>
+      <text x="728" y="52" font-size="11" fill="#e6edf3">Data modelling</text>
+        <text x="728" y="72" font-size="11" fill="#e6edf3">Statistics</text>
+        <text x="728" y="92" font-size="11" fill="#e6edf3">scikit-learn</text>
+        <text x="728" y="112" font-size="11" fill="#e6edf3">REST APIs</text>
+    </g>
+</svg>

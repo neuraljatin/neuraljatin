@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" role="img" aria-label="Profile info card">
+  <defs>
+    <style><![CDATA[
+text, tspan { font-family: Consolas, ui-monospace, 'Liberation Mono', 'Courier New', monospace; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-delay: 0s !important;
+  }
+}
+
+    ]]></style>
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="519" height="389" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+  <text x="18" y="28" font-size="13" fill="#57606a" style="animation:fadeIn 0.4s ease 0s forwards">neuraljatin@github</text>
+<line x1="18" y1="38" x2="502" y2="38" stroke="#c4c4ff" stroke-width="1" style="animation:fadeIn 0.4s ease 0.05s forwards"/>
+
+    <g style="animation:fadeIn 0.45s ease 0.12s forwards">
+      <text x="18" y="62" font-size="13" fill="#0000ff">user</text>
+      <text x="120" y="62" font-size="13" fill="#1f2328">neuraljatin @ github</text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.24s forwards">
+      <text x="18" y="90" font-size="13" fill="#0000ff">Role</text>
+      <text x="120" y="90" font-size="13" fill="#1f2328">Business Systems Analyst · Data<tspan x="120" dy="16">Analyst · BI Developer</tspan></text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.36s forwards">
+      <text x="18" y="134" font-size="13" fill="#0000ff">Focus</text>
+      <text x="120" y="134" font-size="13" fill="#1f2328">Data storytelling, process design<tspan x="120" dy="16">end-to-end delivery</tspan></text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.48s forwards">
+      <text x="18" y="178" font-size="13" fill="#0000ff">Stack</text>
+      <text x="120" y="178" font-size="13" fill="#1f2328">Python · SQL · TypeScript · Power BI<tspan x="120" dy="16">Tableau</tspan></text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.6s forwards">
+      <text x="18" y="222" font-size="13" fill="#0000ff">Builds</text>
+      <text x="120" y="222" font-size="13" fill="#1f2328">Next.js · React · AWS · Vercel</text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.72s forwards">
+      <text x="18" y="250" font-size="13" fill="#0000ff">Edu</text>
+      <text x="120" y="250" font-size="13" fill="#1f2328">MCA, AI &amp; ML (2024–2026) · BCA<tspan x="120" dy="16">(2020–2023)</tspan></text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.84s forwards">
+      <text x="18" y="294" font-size="13" fill="#0000ff">XP</text>
+      <text x="120" y="294" font-size="13" fill="#1f2328">4+ years</text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 0.96s forwards">
+      <text x="18" y="322" font-size="13" fill="#0000ff">Site</text>
+      <text x="120" y="322" font-size="13" fill="#1f2328">portfolio-sage-mu-53.vercel.app</text>
+    </g>
+
+    <g style="animation:fadeIn 0.45s ease 1.08s forwards">
+      <text x="18" y="350" font-size="13" fill="#0000ff">LinkedIn</text>
+      <text x="120" y="350" font-size="13" fill="#1f2328">https://www.linkedin.com/in<tspan x="120" dy="16">/jatin-bharmota</tspan></text>
+    </g>
+
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="118" viewBox="0 0 860 118" role="img" aria-label="KPI panel">
+  <defs>
+    <style><![CDATA[
+text, tspan { font-family: Consolas, ui-monospace, 'Liberation Mono', 'Courier New', monospace; }
+
+@keyframes rise {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes countFlash {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes growX {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes growY {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+.bars rect, .bars { transform-box: fill-box; transform-origin: 0 50%; }
+rect[style*="growY"] { transform-box: fill-box; transform-origin: 50% 100%; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-delay: 0s !important;
+  }
+}
+
+    ]]></style>
+  </defs>
+  <rect width="860" height="118" fill="#0d1117"/>
+  
+    <g style="animation:rise 0.45s ease 0.00s forwards">
+      <rect x="8" y="11" width="203.5" height="96" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="22" y="33" font-size="11" fill="#8b949e">Contributions · 12 mo</text>
+      <g transform="translate(8, 11)"><text x="14" y="58" font-size="24" font-weight="700" fill="#ffff00" style="animation:rise 0.5s ease forwards">— —</text>
+      <text x="14" y="82" font-size="11" fill="#8b949e">from GitHub, daily</text></g>
+    </g>
+
+    <g style="animation:rise 0.45s ease 0.10s forwards">
+      <rect x="221.5" y="11" width="203.5" height="96" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="235.5" y="33" font-size="11" fill="#8b949e">Current streak</text>
+      <g transform="translate(221.5, 11)"><text x="14" y="58" font-size="24" font-weight="700" fill="#ffff00" style="animation:rise 0.5s ease forwards">— —</text>
+      <text x="14" y="82" font-size="11" fill="#8b949e">days</text></g>
+    </g>
+
+    <g style="animation:rise 0.45s ease 0.20s forwards">
+      <rect x="435" y="11" width="203.5" height="96" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="449" y="33" font-size="11" fill="#8b949e">Top languages</text>
+      <g transform="translate(435, 11)"><text x="14" y="58" font-size="24" font-weight="700" fill="#ffff00" style="animation:rise 0.5s ease 0.15s forwards">— —</text>
+      <text x="14" y="82" font-size="11" fill="#8b949e">waiting for live data</text></g>
+    </g>
+
+    <g style="animation:rise 0.45s ease 0.30s forwards">
+      <rect x="648.5" y="11" width="203.5" height="96" rx="8" fill="#03031c" stroke="#1a1aff"/>
+      <text x="662.5" y="33" font-size="11" fill="#8b949e">Busiest weekday</text>
+      <g transform="translate(648.5, 11)"><text x="14" y="58" font-size="24" font-weight="700" fill="#ffff00" style="animation:rise 0.5s ease 0.2s forwards">— —</text>
+      <text x="14" y="82" font-size="11" fill="#8b949e">waiting for live data</text></g>
+    </g>
+</svg>
