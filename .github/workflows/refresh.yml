@@ -27,15 +27,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Only the Action-managed art. Never stage skills-globe_*.svg
-          # (DESIGNER's static file) or any other SVG.
+          # Only the Action-managed art. Never stage DESIGNER's static files:
+          # status_*, banner_*, role_*, marquee_*, snippets_*, skills-globe_*.
           git add -- \
             tagline_dark.svg tagline_light.svg \
             contrib-heatmap_dark.svg contrib-heatmap_light.svg \
             kpi_dark.svg kpi_light.svg \
             skills_dark.svg skills_light.svg \
+            how-i-work_dark.svg how-i-work_light.svg \
+            achievements_dark.svg achievements_light.svg \
             portrait_dark.svg portrait_light.svg \
-            info-card_dark.svg info-card_light.svg
+            info-card_dark.svg info-card_light.svg \
+            featured_dark.svg featured_light.svg
           if git diff --staged --quiet; then
             echo "No SVG changes."
           else

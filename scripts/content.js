@@ -27,12 +27,13 @@ module.exports = {
     { key: "Site", value: "portfolio-sage-mu-53.vercel.app" },
     { key: "LinkedIn", value: "https://www.linkedin.com/in/jatin-bharmota" }
   ],
+  // Steps and labels follow the approved preview; every term is from the sanitized extract.
   process: [
-    { step: "01 Discover", detail: "Stakeholder workshops, KPI trees, BRDs" },
-    { step: "02 Engineer", detail: "SQL, Python, ETL, data validation" },
-    { step: "03 Analyse", detail: "Pandas, scikit-learn, statistics, EDA" },
-    { step: "04 Visualise", detail: "Power BI, Tableau, Excel, DAX" },
-    { step: "05 Ship", detail: "SDLC, UAT, training, change management" }
+    { step: "01 Discover", detail: ["Stakeholders", "KPI trees · BRDs"] },
+    { step: "02 Model", detail: ["Data modelling", "ETL · MS Visio"] },
+    { step: "03 Analyse", detail: ["SQL · Excel", "Power BI · EDA"] },
+    { step: "04 Build", detail: ["Next.js · TypeScript", "REST APIs"] },
+    { step: "05 Ship & measure", detail: ["CI/CD · UAT", "KPI reporting"] }
   ],
   skillGroups: [
     { title: "ANALYSIS", items: ["BRD / FRD", "UAT", "Jira", "Agile / Scrum"] },
@@ -51,12 +52,20 @@ module.exports = {
     { title: "Amazon Bedrock Getting Started", issuer: "AWS Training and Certification", when: "Jul 2024" },
     { title: "Cryptocurrency Trading", issuer: "Online", when: "2024" }
   ],
+  // Public, live projects only. No private repo links.
   featured: [
-    { name: "Athman", detail: "Meditation & wellness platform" },
-    { name: "Fitness Gym", detail: "Website & member management" },
-    { name: "Fake News Detection", detail: "Classification system" },
-    { name: "Air Quality Analytics", detail: "AQI analysis project" },
-    { name: "Portfolio + Admin CMS", detail: "Animated portfolio with a GitHub-backed CMS" }
+    { name: "money-tracker", detail: "Spending & savings tracker web app", url: "https://money-tracker-mauve-kappa.vercel.app", host: "money-tracker-mauve-kappa.vercel.app" },
+    { name: "FITNESSGYM", detail: "Gym website & member management", url: "https://fitnessgym-gamma.vercel.app", host: "fitnessgym-gamma.vercel.app" },
+    { name: "portfolio", detail: "Animated portfolio + GitHub CMS", url: "https://portfolio-sage-mu-53.vercel.app", host: "portfolio-sage-mu-53.vercel.app" }
+  ],
+  // Generic, true items only (from the approved preview). Never invent numbers.
+  achievements: [
+    { icon: "ship", title: "Shipped to production", detail: "Live apps on Vercel & Cloudflare" },
+    { icon: "gear", title: "CI/CD automated", detail: "GitHub Actions build & deploy" },
+    { icon: "chart", title: "Data → decisions", detail: "Dashboards & KPI reporting" },
+    { icon: "gym", title: "FITNESSGYM", detail: "Gym website & member management" },
+    { icon: "cap", title: "4+ years", detail: "Analysis, data & BI delivery" },
+    { icon: "badge", title: "GitHub milestones", detail: "live" }
   ],
   education: [
     { title: "MCA — AI & Machine Learning", place: "Manav Rachna International Institute of Research and Studies", when: "Jul 2024–Jul 2026", detail: "CGPA 8.2 / 10" },

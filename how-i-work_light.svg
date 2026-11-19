@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="96" viewBox="0 0 860 96" role="img" aria-label="How I work: 01 Discover, 02 Model, 03 Analyse, 04 Build, 05 Ship &amp; measure">
+  <defs>
+    <style><![CDATA[
+text, tspan { font-family: Consolas, ui-monospace, 'Liberation Mono', 'Courier New', monospace; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-delay: 0s !important;
+  }
+}
+
+    ]]></style>
+  </defs>
+  <rect width="860" height="96" fill="#ffffff"/>
+  <g style="animation:rise 0.5s ease 0.00s both">
+    <rect x="2" y="8" width="156.8" height="82" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+    <rect x="12" y="18" width="26" height="20" rx="4" fill="#ffff00"/>
+    <text x="25" y="32" font-size="11" font-weight="700" text-anchor="middle" fill="#0000ff">01</text>
+    <text x="44" y="32" font-size="12" font-weight="700" fill="#0000ff">Discover</text>
+    <text x="12" y="58" font-size="10.5" fill="#57606a">Stakeholders</text><text x="12" y="73" font-size="10.5" fill="#57606a">KPI trees · BRDs</text>
+  </g><text class="arrow" x="167.8" y="52" font-size="14" text-anchor="middle" fill="#0000ff" style="animation:pulse 2.4s ease-in-out 0.00s infinite">→</text>
+
+  <g style="animation:rise 0.5s ease 0.15s both">
+    <rect x="176.8" y="8" width="156.8" height="82" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+    <rect x="186.8" y="18" width="26" height="20" rx="4" fill="#ffff00"/>
+    <text x="199.8" y="32" font-size="11" font-weight="700" text-anchor="middle" fill="#0000ff">02</text>
+    <text x="218.8" y="32" font-size="12" font-weight="700" fill="#0000ff">Model</text>
+    <text x="186.8" y="58" font-size="10.5" fill="#57606a">Data modelling</text><text x="186.8" y="73" font-size="10.5" fill="#57606a">ETL · MS Visio</text>
+  </g><text class="arrow" x="342.6" y="52" font-size="14" text-anchor="middle" fill="#0000ff" style="animation:pulse 2.4s ease-in-out 0.30s infinite">→</text>
+
+  <g style="animation:rise 0.5s ease 0.30s both">
+    <rect x="351.6" y="8" width="156.8" height="82" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+    <rect x="361.6" y="18" width="26" height="20" rx="4" fill="#ffff00"/>
+    <text x="374.6" y="32" font-size="11" font-weight="700" text-anchor="middle" fill="#0000ff">03</text>
+    <text x="393.6" y="32" font-size="12" font-weight="700" fill="#0000ff">Analyse</text>
+    <text x="361.6" y="58" font-size="10.5" fill="#57606a">SQL · Excel</text><text x="361.6" y="73" font-size="10.5" fill="#57606a">Power BI · EDA</text>
+  </g><text class="arrow" x="517.4000000000001" y="52" font-size="14" text-anchor="middle" fill="#0000ff" style="animation:pulse 2.4s ease-in-out 0.60s infinite">→</text>
+
+  <g style="animation:rise 0.5s ease 0.45s both">
+    <rect x="526.4000000000001" y="8" width="156.8" height="82" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+    <rect x="536.4000000000001" y="18" width="26" height="20" rx="4" fill="#ffff00"/>
+    <text x="549.4000000000001" y="32" font-size="11" font-weight="700" text-anchor="middle" fill="#0000ff">04</text>
+    <text x="568.4000000000001" y="32" font-size="12" font-weight="700" fill="#0000ff">Build</text>
+    <text x="536.4000000000001" y="58" font-size="10.5" fill="#57606a">Next.js · TypeScript</text><text x="536.4000000000001" y="73" font-size="10.5" fill="#57606a">REST APIs</text>
+  </g><text class="arrow" x="692.2" y="52" font-size="14" text-anchor="middle" fill="#0000ff" style="animation:pulse 2.4s ease-in-out 0.90s infinite">→</text>
+
+  <g style="animation:rise 0.5s ease 0.60s both">
+    <rect x="701.2" y="8" width="156.8" height="82" rx="8" fill="#f6f6ff" stroke="#c4c4ff"/>
+    <rect x="711.2" y="18" width="26" height="20" rx="4" fill="#ffff00"/>
+    <text x="724.2" y="32" font-size="11" font-weight="700" text-anchor="middle" fill="#0000ff">05</text>
+    <text x="743.2" y="32" font-size="12" font-weight="700" fill="#0000ff">Ship &amp; measure</text>
+    <text x="711.2" y="58" font-size="10.5" fill="#57606a">CI/CD · UAT</text><text x="711.2" y="73" font-size="10.5" fill="#57606a">KPI reporting</text>
+  </g>
+</svg>

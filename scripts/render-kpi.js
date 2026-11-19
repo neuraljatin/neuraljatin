@@ -76,9 +76,16 @@ function render(mode, opts = {}) {
         return r;
       })
       .join("");
-    const label = slices.map((l) => l.name).join(" · ");
+    // Keep the label inside the card (conservative 0.62em monospace glyph width).
+    const { textWidth } = require("./lib/fit");
+    const names = slices.map((l) => l.name).join(" · ");
+    const maxW = cw - 28;
+    let label = `${names} (live)`;
+    let fs = 11;
+    if (textWidth(label, fs) > maxW) { label = names; fs = 10.5; }
+    while (fs > 8 && textWidth(label, fs) > maxW) fs -= 0.5;
     langBody = `<g class="bars">${rects}</g>
-      <text x="14" y="82" font-size="11" fill="${pal.faint}">${esc(label)} (live)</text>`;
+      <text x="14" y="82" font-size="${fs}" fill="${pal.faint}">${esc(label)}</text>`;
   }
 
   let dayBody;

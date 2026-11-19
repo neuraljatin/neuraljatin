@@ -47,8 +47,11 @@ const expected = [
   "contrib-heatmap",
   "kpi",
   "skills",
+  "how-i-work",
+  "achievements",
   "portrait",
   "info-card",
+  "featured",
 ];
 for (const name of expected) {
   for (const mode of ["dark", "light"]) {

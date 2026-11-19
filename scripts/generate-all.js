@@ -3,18 +3,19 @@
 /**
  * Generate profile SVGs in dark and light variants.
  *
- * The daily Action only refreshes:
- *   tagline, contrib-heatmap, kpi, skills, portrait, info-card
+ * The daily Action refreshes (DEVOPS-owned art):
+ *   tagline, contrib-heatmap, kpi, skills, how-i-work, achievements,
+ *   portrait, info-card, featured
  *
- * Renderers for how-i-work, certifications, achievements, and featured
- * remain in this folder but are not called here.
+ * DESIGNER-owned static art is never written here:
+ *   status, banner, role, marquee, snippets, skills-globe
+ * render-certifications.js remains in this folder but is not called.
  *
  *   node scripts/generate-all.js --sample
  *   node scripts/generate-all.js --live
  *   node scripts/generate-all.js --mark JB
  *   node scripts/generate-all.js --photo /path/to/face.jpg
  *
- * Never writes skills-globe_*.svg (DESIGNER's static art).
  */
 const path = require("path");
 
@@ -36,10 +37,13 @@ require("./render-tagline").generate(outDir);
 require("./render-heatmap").generate(outDir, { live });
 require("./render-kpi").generate(outDir, { live });
 require("./render-skills").generate(outDir);
+require("./render-how-i-work").generate(outDir);
+require("./render-achievements").generate(outDir, { live });
 require("./render-portrait").generate(outDir, portraitOpts);
 require("./render-info-card").generate(outDir);
+require("./render-featured").generate(outDir);
 
 const { activeName } = require("./lib/theme");
 console.log(
-  `Generated tagline, contrib-heatmap, kpi, skills, portrait, info-card (theme=${activeName()}, mode=${live ? "live" : "sample"}, portrait=${portraitOpts.photo ? "photo" : portraitOpts.mark})`
+  `Generated tagline, contrib-heatmap, kpi, skills, how-i-work, achievements, portrait, info-card, featured (theme=${activeName()}, mode=${live ? "live" : "sample"}, portrait=${portraitOpts.photo ? "photo" : portraitOpts.mark})`
 );
