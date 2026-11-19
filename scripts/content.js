@@ -60,7 +60,7 @@ module.exports = {
   ],
   // Generic, true items only (from the approved preview). Never invent numbers.
   achievements: [
-    { icon: "ship", title: "Shipped to production", detail: "Live apps on Vercel & Cloudflare" },
+    { icon: "ship", title: "Shipped to production", detail: "Live apps on Vercel" },
     { icon: "gear", title: "CI/CD automated", detail: "GitHub Actions build & deploy" },
     { icon: "chart", title: "Data → decisions", detail: "Dashboards & KPI reporting" },
     { icon: "gym", title: "FITNESSGYM", detail: "Gym website & member management" },
